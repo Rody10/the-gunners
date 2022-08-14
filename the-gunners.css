@@ -1,0 +1,85 @@
+header
+{
+    background-color: #B80C09;
+    color: #FBFBFF;
+    padding: 1px;
+
+}
+nav
+{
+    color: #FBFBFF;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B80C09;
+    font-size: larger;
+
+}
+
+
+div
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+body
+{
+    background-color: #edf0ef;
+    max-width:1000px;
+    margin:0 auto; /* makes your content centered horizontally */
+    border:#FBFBFF;
+
+}
+
+fieldset
+{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+#first-name
+{
+    margin: 5px;
+}
+
+#last-name
+{
+    margin: 5px;
+}
+
+footer
+{
+    background-color: #B80C09;
+    color: #edf0ef;
+}
+
+footer a
+{
+    color: #edf0ef;
+}
+
+nav a
+{
+    color: #edf0ef;
+}
+
+li
+{
+    padding: 5px;
+}
+
+#stadiums
+{
+    display: flex;
+    justify-content: left;
+}
+
+#club-legends
+{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(6, 1);
+  grid-template-rows: repeat(2, 300px);
+}
